@@ -36,7 +36,7 @@ def search_by_tags(tags):
 
 while True:
     results = []
-    command = input("Wpisz komendę: \n")
+    command = input("\nAvailabe commands:\n\nname - e.g. name: Steve Martin\ntag - e.g. tag:life\ntags - e.g. tags:life,live\nexit \n\nInsert command: \n")
 
     if command == "exit":
         break
